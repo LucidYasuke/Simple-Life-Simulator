@@ -2,6 +2,10 @@
 
 int main()
 {
+    //Init srand
+    std::srand(static_cast<unsigned>(time(NULL)));
+
+    //Init Engine
     Engine engine;
     engine.core();
     return 0;
