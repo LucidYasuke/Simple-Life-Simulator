@@ -10,6 +10,7 @@ class Engine
 private:
     float dt;
     sf::Clock dtClock;
+    std::map<std::string, sf::RectangleShape> background;
 
     sf::Time timerFruitSpawn, timerFruitSpawnMax;
 
@@ -19,6 +20,7 @@ private:
     std::vector<sls::Food*> foods;
 
     void initWindow();
+    void initBackground();
 public:
     Engine();
     virtual ~Engine();

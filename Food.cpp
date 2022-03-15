@@ -33,22 +33,22 @@ void sls::Food::initShape()
 	switch (this->size)
 	{
 	case sls::FoodSize::SMALL:
-		this->food.setRadius(1.5f);
-		break;
-	case sls::FoodSize::MEDIUM:
 		this->food.setRadius(3.f);
 		break;
+	case sls::FoodSize::MEDIUM:
+		this->food.setRadius(6.f);
+		break;
 	case sls::FoodSize::BIG:
-		this->food.setRadius(4.5f);
+		this->food.setRadius(9.f);
 		break;
 	}
 
 	// 1280 by 720
 	//start 200 to 1080
 	// start 200 to 520
-	this->x = static_cast<float>(rand() % 880 + 200);
-	this->y = static_cast<float>(rand() % 320 + 200);
-
+	this->x = static_cast<float>(rand() % 1055 + 75); // Min 75 Max 
+	this->y = static_cast<float>(rand() % 495 + 75); // Min 75 Max 
+	
 	this->food.setPosition(sf::Vector2f(this->x, this->y));
 }
 
