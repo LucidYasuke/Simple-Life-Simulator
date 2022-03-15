@@ -12,6 +12,9 @@ enum class FoodState{IDLE=0, HELD, EATEN};
 class Food
 {
 protected:
+	float x;
+	float y;
+	bool del;
 	FoodSize size;
 	FoodState state;
 	double fullness;

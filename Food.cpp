@@ -33,20 +33,29 @@ void sls::Food::initShape()
 	switch (this->size)
 	{
 	case sls::FoodSize::SMALL:
-		this->food.setRadius(3.f);
+		this->food.setRadius(1.5f);
 		break;
 	case sls::FoodSize::MEDIUM:
-		this->food.setRadius(6.f);
+		this->food.setRadius(3.f);
 		break;
 	case sls::FoodSize::BIG:
-		this->food.setRadius(12.f);
+		this->food.setRadius(4.5f);
 		break;
 	}
+
+	// 1280 by 720
+	//start 200 to 1080
+	// start 200 to 520
+	this->x = static_cast<float>(rand() % 880 + 200);
+	this->y = static_cast<float>(rand() % 320 + 200);
+
+	this->food.setPosition(sf::Vector2f(this->x, this->y));
 }
 
 sls::Food::Food()
 {
 	this->state = sls::FoodState::IDLE;
+	this->del = false;
 	this->initSize();
 	this->initShape();
 }
@@ -87,6 +96,16 @@ void sls::Food::setEaten()
 
 void sls::Food::update(const float& dt)
 {
+	switch (this->state)
+	{
+	case sls::FoodState::IDLE:
+		break;
+	case sls::FoodState::EATEN:
+		this->del = true;
+		break;
+	default:
+		break;
+	}
 }
 
 void sls::Food::render(sf::RenderTarget* target)

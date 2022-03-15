@@ -5,7 +5,7 @@ int main()
     //Init srand
     std::srand(static_cast<unsigned>(time(NULL)));
 
-    //Init Engine
+    //Init Engine   
     Engine engine;
     engine.core();
     return 0;
