@@ -1,0 +1,5 @@
+/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles/SLS.dir
+/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles/package.dir
+/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles/package_source.dir
+/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles/edit_cache.dir
+/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles/rebuild_cache.dir
