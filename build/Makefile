@@ -173,6 +173,78 @@ Engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Engine.cpp.s
 .PHONY : Engine.cpp.s
 
+Entity.o: Entity.cpp.o
+.PHONY : Entity.o
+
+# target to build an object file
+Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Entity.cpp.o
+.PHONY : Entity.cpp.o
+
+Entity.i: Entity.cpp.i
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
+Food.o: Food.cpp.o
+.PHONY : Food.o
+
+# target to build an object file
+Food.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Food.cpp.o
+.PHONY : Food.cpp.o
+
+Food.i: Food.cpp.i
+.PHONY : Food.i
+
+# target to preprocess a source file
+Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Food.cpp.i
+.PHONY : Food.cpp.i
+
+Food.s: Food.cpp.s
+.PHONY : Food.s
+
+# target to generate assembly for a file
+Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Food.cpp.s
+.PHONY : Food.cpp.s
+
+Shelter.o: Shelter.cpp.o
+.PHONY : Shelter.o
+
+# target to build an object file
+Shelter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Shelter.cpp.o
+.PHONY : Shelter.cpp.o
+
+Shelter.i: Shelter.cpp.i
+.PHONY : Shelter.i
+
+# target to preprocess a source file
+Shelter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Shelter.cpp.i
+.PHONY : Shelter.cpp.i
+
+Shelter.s: Shelter.cpp.s
+.PHONY : Shelter.s
+
+# target to generate assembly for a file
+Shelter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/Shelter.cpp.s
+.PHONY : Shelter.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -211,6 +283,15 @@ help:
 	@echo "... Engine.o"
 	@echo "... Engine.i"
 	@echo "... Engine.s"
+	@echo "... Entity.o"
+	@echo "... Entity.i"
+	@echo "... Entity.s"
+	@echo "... Food.o"
+	@echo "... Food.i"
+	@echo "... Food.s"
+	@echo "... Shelter.o"
+	@echo "... Shelter.i"
+	@echo "... Shelter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

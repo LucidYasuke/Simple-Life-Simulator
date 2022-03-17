@@ -97,22 +97,70 @@ CMakeFiles/SLS.dir/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SLS.dir/Engine.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Engine.cpp -o CMakeFiles/SLS.dir/Engine.cpp.s
 
+CMakeFiles/SLS.dir/Food.cpp.o: CMakeFiles/SLS.dir/flags.make
+CMakeFiles/SLS.dir/Food.cpp.o: ../Food.cpp
+CMakeFiles/SLS.dir/Food.cpp.o: CMakeFiles/SLS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SLS.dir/Food.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SLS.dir/Food.cpp.o -MF CMakeFiles/SLS.dir/Food.cpp.o.d -o CMakeFiles/SLS.dir/Food.cpp.o -c /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Food.cpp
+
+CMakeFiles/SLS.dir/Food.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SLS.dir/Food.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Food.cpp > CMakeFiles/SLS.dir/Food.cpp.i
+
+CMakeFiles/SLS.dir/Food.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SLS.dir/Food.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Food.cpp -o CMakeFiles/SLS.dir/Food.cpp.s
+
+CMakeFiles/SLS.dir/Entity.cpp.o: CMakeFiles/SLS.dir/flags.make
+CMakeFiles/SLS.dir/Entity.cpp.o: ../Entity.cpp
+CMakeFiles/SLS.dir/Entity.cpp.o: CMakeFiles/SLS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SLS.dir/Entity.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SLS.dir/Entity.cpp.o -MF CMakeFiles/SLS.dir/Entity.cpp.o.d -o CMakeFiles/SLS.dir/Entity.cpp.o -c /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Entity.cpp
+
+CMakeFiles/SLS.dir/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SLS.dir/Entity.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Entity.cpp > CMakeFiles/SLS.dir/Entity.cpp.i
+
+CMakeFiles/SLS.dir/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SLS.dir/Entity.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Entity.cpp -o CMakeFiles/SLS.dir/Entity.cpp.s
+
+CMakeFiles/SLS.dir/Shelter.cpp.o: CMakeFiles/SLS.dir/flags.make
+CMakeFiles/SLS.dir/Shelter.cpp.o: ../Shelter.cpp
+CMakeFiles/SLS.dir/Shelter.cpp.o: CMakeFiles/SLS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SLS.dir/Shelter.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SLS.dir/Shelter.cpp.o -MF CMakeFiles/SLS.dir/Shelter.cpp.o.d -o CMakeFiles/SLS.dir/Shelter.cpp.o -c /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Shelter.cpp
+
+CMakeFiles/SLS.dir/Shelter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SLS.dir/Shelter.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Shelter.cpp > CMakeFiles/SLS.dir/Shelter.cpp.i
+
+CMakeFiles/SLS.dir/Shelter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SLS.dir/Shelter.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/Shelter.cpp -o CMakeFiles/SLS.dir/Shelter.cpp.s
+
 # Object files for target SLS
 SLS_OBJECTS = \
 "CMakeFiles/SLS.dir/main.cpp.o" \
-"CMakeFiles/SLS.dir/Engine.cpp.o"
+"CMakeFiles/SLS.dir/Engine.cpp.o" \
+"CMakeFiles/SLS.dir/Food.cpp.o" \
+"CMakeFiles/SLS.dir/Entity.cpp.o" \
+"CMakeFiles/SLS.dir/Shelter.cpp.o"
 
 # External object files for target SLS
 SLS_EXTERNAL_OBJECTS =
 
 SLS: CMakeFiles/SLS.dir/main.cpp.o
 SLS: CMakeFiles/SLS.dir/Engine.cpp.o
+SLS: CMakeFiles/SLS.dir/Food.cpp.o
+SLS: CMakeFiles/SLS.dir/Entity.cpp.o
+SLS: CMakeFiles/SLS.dir/Shelter.cpp.o
 SLS: CMakeFiles/SLS.dir/build.make
 SLS: /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics
 SLS: /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window
 SLS: /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system
 SLS: CMakeFiles/SLS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SLS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SLS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SLS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

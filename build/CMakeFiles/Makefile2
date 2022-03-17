@@ -81,12 +81,12 @@ clean: CMakeFiles/SLS.dir/clean
 CMakeFiles/SLS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SLS.dir/build.make CMakeFiles/SLS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=1,2,3 "Built target SLS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target SLS"
 .PHONY : CMakeFiles/SLS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SLS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SLS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/enigmatics/VSCProjects/Cpp/Simple-Life-Simulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/SLS.dir/rule
