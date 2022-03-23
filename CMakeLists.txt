@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.2)
 project(SLS)
 
 set(CMAKE_CXX_STANDARD 11)
-set(SFML_INCLUDE_DIR "./SFML-2.5.1/include")
-set(SFML_LIBRARY_DIR "./SFML-2.5.1/build/lib")
+set(SFML_INCLUDE_DIR "/usr/local/Cellar/sfml/2.5.1_1/include")
+set(SFML_LIBRARY_DIR "/usr/local/Cellar/sfml/2.5.1_1/lib")
 
 link_directories(SFML_LIBRARY_DIR)
 include_directories(SFML_INCLUDE_DIR)
